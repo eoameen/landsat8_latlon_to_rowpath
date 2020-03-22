@@ -25,7 +25,7 @@ optional arguments:
 
 * Example:
 ```sh
-docker run --rm -it -v `pwd`:/workspace landsat8-converter python3 src/latlon_to_rowpath.py --lat 75.0 --lon 75.0 --mode D
+docker run --rm -it -v `pwd`:/workspace landsat8-converter python3 src/latlon_to_rowpath.py --latitude 75.0 --longitude 75.0 --mode D
 ```
 
 ## Linting
